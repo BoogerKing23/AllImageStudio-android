@@ -1,0 +1,13 @@
+# 1. Skopiuj ten plik jako "local.properties" w głównym folderze projektu
+#    (Android Studio zwykle tworzy "local.properties" automatycznie przy
+#    pierwszym otwarciu projektu — wtedy po prostu dopisz do niego linijkę
+#    z GEMINI_API_KEY).
+# 2. Ten plik NIGDY nie trafia do repozytorium Git (patrz .gitignore) i
+#    NIGDY nie jest wpisany na stałe w kodzie źródłowym.
+# 3. Wygeneruj nowy klucz w Google AI Studio: https://aistudio.google.com/app/apikey
+#    (jeśli wcześniej wkleiłeś gdzieś swój klucz publicznie / w czacie,
+#    najpierw go unieważnij).
+
+sdk.dir=/sciezka/do/twojego/Android/sdk
+
+GEMINI_API_KEY=WKLEJ_TUTAJ_SWOJ_NOWY_KLUCZ

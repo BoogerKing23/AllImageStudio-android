@@ -63,7 +63,7 @@ class ChatViewModel : ViewModel() {
 
     private var pipelineJob: Job? = null
 
-    fun setImproveUntilApprovedMode(enabled: Boolean) {
+    fun updateImproveUntilApprovedMode(enabled: Boolean) {
         improveUntilApprovedMode = enabled
     }
 

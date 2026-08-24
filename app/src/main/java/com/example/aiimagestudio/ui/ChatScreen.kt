@@ -66,7 +66,7 @@ fun ChatScreen(viewModel: ChatViewModel = viewModel()) {
                     )
                     Switch(
                         checked = viewModel.improveUntilApprovedMode,
-                        onCheckedChange = { viewModel.setImproveUntilApprovedMode(it) },
+                        onCheckedChange = { viewModel.updateImproveUntilApprovedMode(it) },
                         enabled = !viewModel.isProcessing
                     )
                 }
